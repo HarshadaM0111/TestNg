@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.selenium_automation.ohrmlogin">
+      <class name="test.selenium_automation.datadriverntesting_multipledata">
         <methods>
-          <include name="logoutTest"/>
-          <include name="launch"/>
-          <include name="logintest"/>
+          <include name="swaglab_login_logout" invocation-numbers="0 1 2 3 4"/>
         </methods>
-      </class> <!-- test.selenium_automation.ohrmlogin -->
+      </class> <!-- test.selenium_automation.datadriverntesting_multipledata -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

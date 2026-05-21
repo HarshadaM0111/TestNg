@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium_TestNG_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TtestNG_est(failed)">
+    <parameter name="A" value="4"/>
+    <parameter name="B" value="10"/>
+    <parameter name="N" value="kaira"/>
+    <classes>
+      <class name="test.selenium_automation.ParameterizedTestNG">
+        <methods>
+          <include name="display"/>
+        </methods>
+      </class> <!-- test.selenium_automation.ParameterizedTestNG -->
+    </classes>
+  </test> <!-- TtestNG_est(failed) -->
+</suite> <!-- Failed suite [Selenium_TestNG_Suite] -->
