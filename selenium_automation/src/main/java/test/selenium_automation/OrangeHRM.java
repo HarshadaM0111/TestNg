@@ -21,7 +21,8 @@ public class OrangeHRM {
 		driver.findElement(By.name("username")).sendKeys("Admin");
 		driver.findElement(By.name("password")).sendKeys("admin123");
 		
-		driver.findElement(By.xpath("//input[@type='submit']")).click();
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		
 		
 	}
 
