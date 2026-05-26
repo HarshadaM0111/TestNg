@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.selenium_automation.datadriverntesting_multipledata">
+      <class name="listnerTestNG.LoginTest">
         <methods>
-          <include name="swaglab_login_logout" invocation-numbers="0 1 2 3 4"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- test.selenium_automation.datadriverntesting_multipledata -->
+      </class> <!-- listnerTestNG.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

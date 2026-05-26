@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Selenium_TestNG_Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listnerTestNG.MyListener"/>
+  </listeners>
+  <test thread-count="5" name="TestNG_Test(failed)">
     <classes>
-      <class name="test.selenium_automation.datadriverntesting_multipledata">
+      <class name="listnerTestNG.TestExample">
         <methods>
-          <include name="swaglab_login_logout" invocation-numbers="0 1 2 3 4"/>
+          <include name="failTest"/>
         </methods>
-      </class> <!-- test.selenium_automation.datadriverntesting_multipledata -->
+      </class> <!-- listnerTestNG.TestExample -->
+      <class name="listnerTestNG.GoogleTest">
+        <methods>
+          <include name="titleTest"/>
+        </methods>
+      </class> <!-- listnerTestNG.GoogleTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- TestNG_Test(failed) -->
+</suite> <!-- Failed suite [Selenium_TestNG_Suite] -->
