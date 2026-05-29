@@ -1,7 +1,6 @@
 package test.selenium_automation;
 
 import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
